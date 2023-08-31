@@ -1,0 +1,654 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 99999999;
+    background-color: white;
+}
+
+header .nav {
+    display: flex;
+}
+
+header .nav .logo {
+    padding: 20px;
+}
+
+header .nav .logo img {
+    width: 13%;
+}
+
+header .nav .row ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .nav .row i {
+    display: none;
+}
+
+header .nav .row ul li {
+    padding: 20px;
+}
+
+header .nav .row ul button {
+    background-color: white;
+    width: 100px;
+    padding: 7px 0px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 700;
+    border-style: none;
+    border: 2px solid orange;
+    cursor: pointer;
+
+}
+
+header .nav .row ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.home {
+    padding-top: 100px;
+}
+
+.home .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .row .info {
+    padding-top: 100px;
+    width: 45%;
+}
+
+.home .row .info h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.home .row .info p {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(32, 32, 32, 0.6);
+    padding: 10px;
+}
+
+.home .row .info button {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px 0px;
+
+}
+
+.home .row .info button:hover {
+    background-color: rgb(32, 157, 216);
+}
+
+.home .row .image {
+    padding-top: 100px;
+    width: 45%;
+}
+
+.home .row .image img {
+    width: 90%;
+}
+
+.home .cards {
+    margin-top: 40px;
+    background-color: rgb(243, 245, 250);
+}
+
+.home .cards .row3 {
+    width: 70%;
+    margin: auto;
+}
+
+.home .cards .row3 img {
+    width: 100px;
+    filter: grayscale(100);
+    transition: all 0.5s;
+    margin: 20px 30px;
+}
+
+.home .cards .row3 img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2, 1.2);
+
+}
+
+/* ended home */
+
+.using {
+    margin: 200px 0px;
+}
+
+.using h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+}
+
+.using p {
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.using button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: orange;
+    background-color: white;
+    border-style: none;
+    border: 2px solid orange;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.using button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.using .hr {
+    width: 80px;
+    height: 5px;
+    background-color: orange;
+    margin: auto;
+}
+
+.using .row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.using .row .image {
+    width: 50%;
+}
+
+.using .row .image img {
+    width: 90%;
+}
+
+.using .row .info {
+    width: 50%;
+}
+
+/* using ended */
+
+.about {
+    margin-bottom: 150px;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+}
+
+.about .hr {
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    background-color: orange;
+}
+
+.about .row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .line {
+    display: flex;
+}
+
+.about .row .part1 {
+    width: 45%;
+    line-height: 20px;
+}
+
+.about .row .part1 p {
+    padding-bottom: 10px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.about .row i {
+    color: orange;
+    padding: 2px 10px 2px 0px;
+}
+
+.about .row .part2 {
+    width: 45%;
+}
+
+.about .row .part2 p {
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.about .row .part2 button {
+    padding: 10px 30px;
+    background-color: white;
+    color: orange;
+    border-style: none;
+    border: 2px solid orange;
+    border-radius: 5px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.about .row .part2 button:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* ended about */
+
+.categories{
+    padding-top: 120px;
+    background-color: rgb(243,245,250);
+}
+.categories h2{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+}
+.categories .hr{
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    background-color: orange;
+}
+.categories h4{
+    padding: 10px 0px;
+    background-color: rgb(255,165,0);
+    width: 96%;
+    top: 48px;
+    left: 8.5px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.categories .row{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+.categories .card1{
+    width: 30%;
+    height: 250px;
+    position: relative;
+}
+
+.categories .card1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.Brands{
+    padding-top: 120px;
+    background-color: rgb(243,245,250);
+}
+.Brands h2{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+}
+.Brands .hr{
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    background-color: orange;
+}
+.Brands p{
+    padding-top: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.Brands .row{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.contact{
+    margin: 100px 0px;
+}
+.contact h2{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.contact .hr{
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    background-color: orange;
+}
+.contact p{
+    padding: 10px 0px;
+    line-height: 20px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+.contact .row{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .row .image{
+    width: 49%;
+}
+.contact .row .info{
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    width: 49%;
+    
+}
+.contact .row .image img{
+    width: 100%;
+    height: 400px;
+}
+.contact .row .info .row2{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .input{
+    width: 45%;
+}
+.contact .info input{
+    width: 100%;
+    padding: 5px 0px;
+}
+.contact .row .info label{
+    display: block;
+    padding-bottom: 10px;
+
+}
+.contact .textarea{
+    width: 95%;
+    text-align: center ;
+    margin: auto;
+}
+.contact textarea{
+    width: 100%;
+    height: 25vh;
+    display: block;
+}
+.contact .info button{
+    margin-top: 10px;
+    padding: 15px 0px;
+    width: 33%;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+.social{
+    margin-bottom: 50px;
+}
+.social h4{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55, 81, 126);
+    margin: 15px 0px;
+}
+.social p{
+    line-height: 20px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.social .social_links a{
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.part{
+    padding: 100px 0px 20px 0px;
+    background-color: rgb(243,245,250);    
+}
+.offers{
+    margin: 100px 0px;
+}
+.offers .row{
+    display: flex;
+    justify-content: space-around;
+}
+.offers .row .card{
+    width: 33%;
+}
+.offers .row .card p{
+    padding: 10px;
+    line-height: 20px;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.offers .row .card h3{
+    padding: 10px;
+    
+}
+.offers .row button{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all .5s;
+}
+.offers .row button:hover{
+    background-color: #212529;
+}
+.offers .row .card img{
+    width: 100%;
+}
+footer{
+    padding: 60px 100px 60px 0px;
+    background-color: rgb(55, 81, 126);;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+    line-height: 25px;
+}
+footer p span{
+    color: orange;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    header .nav .row ul {
+        margin: 0px;
+        padding: 0px;
+        display: none;
+    }
+
+    header .nav .row i {
+        display: block;
+        padding: 30px 0px 5px;
+        font-size: 30px;
+    }
+
+    /* finsh header */
+    .home .row {
+        display: block;
+    }
+
+    .home .info {
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .home .image {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .home .cards .row3 {
+        width: 25%;
+        margin: auto;
+    }
+
+    .home .cards .row3 img {
+        width: 80px;
+    }
+
+    /* finsh home */
+
+    .using .row {
+        width: 100%;
+        display: block;
+    }
+
+    .using .row .image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .using .row .info {
+        width: 100%;
+        text-align: center;
+    }
+    /* finsh using */
+
+    .about .row{
+        display: block;
+    }
+    .about .row .part1, .part2{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    /* finsh about */
+
+    .categories .row{
+        display: block;
+    }
+    .categories .card1{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    /* finsh categories */
+
+    .Brands .row{
+        display: block;
+    }
+    .Brands .card1{
+        width: 100%;
+    }
+    .Brands .row .card1 img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    /* finish Brands */
+
+    .contact{
+        margin-top: 50px;
+    }
+    .contact .row{
+        display: block;
+    }
+    .contact .image{
+        width: 100% !important;
+    }
+    .contact .info{
+        margin-top: 50px;
+        padding: 20px 0px;
+        width: 100% !important;
+    }
+    .contact .info button{
+        width: 50%;
+    }
+
+    /* finish conatact */
+
+    .offers .row{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .offers .row .card{
+        width: 100%;
+        margin: 10px 0px;
+        border: 1px solid gainsboro;
+    }
+
+    footer .container{
+        width: 120% !important;
+    }
+    footer .row{
+        text-align: center;
+        width: 100% !important;
+        display: block;
+    }
+    footer .row .part1{
+        padding-bottom: 20px;
+    }
+
+
+}
